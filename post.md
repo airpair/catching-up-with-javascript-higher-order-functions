@@ -53,7 +53,7 @@ Actually, Functional programming is way more than that! There are great concepts
 
 JavaScript is considered a hybrid language, so that it is possible to write code either following an Imperative or a Declarative/Functional approach.
 
-## Learn by example
+## Imperative vs Functional approach
 
 In order to illustrate the power of higher-order functions, there is nothing better than looking into different implementations of the same program. Suppose your requirement is:
 
