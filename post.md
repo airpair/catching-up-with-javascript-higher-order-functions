@@ -1,4 +1,4 @@
-They are all around you, your code, your company, your community, your frameworks. You may not be aware of them or perhaps you never properly understood what is going on about them, but trust me: your life will never be the same without them. They are unique and pave the way for **Functional programming**. With you, **Higher-order functions**!
+They are all around you, your code, your company, your community, your frameworks. You may not be aware of them or perhaps you never properly understood what is going on with them, but trust me: your life will never be the same without them. They are unique and pave the way for **Functional programming**. With you, **Higher-order functions**!
 
 ## Higher-order functions 101
 
