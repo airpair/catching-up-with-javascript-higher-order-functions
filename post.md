@@ -1,4 +1,4 @@
-They are all around you, your code, your company, your community, your frameworks. You may not be aware of them or perhaps you never properly understood what is going on about them, but trust me: your life would never be the same without them. They are unique and pave the way for **Functional programming** (although Functional programming is not only about them). With you, **Higher-order functions**!
+They are all around you, your code, your company, your community, your frameworks. You may not be aware of them or perhaps you never properly understood what is going on about them, but trust me: your life will never be the same without them. They are unique and pave the way for **Functional programming**. With you, **Higher-order functions**!
 
 ## Higher-order functions 101
 
@@ -8,16 +8,16 @@ According to [Wikipedia](https://en.wikipedia.org/wiki/Higher-order_function), a
 
 All other functions are **first-order functions**.
 
-In JavaScript, functions are first-class citizens, which means they can go anywhere other data types would go (like integers, strings, arrays and objects). While this might not be big news for you (I'd bet you wrote callbacks once or twice), it means that you can write optimized code for higher-order functions and take advantage of its properties.
+In JavaScript, functions are first-class citizens, which means they can go anywhere other data types would go (like integers, strings, arrays and objects). While this might not be big news for you (I bet you've written callbacks once or twice), it means that you can write optimized code for higher-order functions and take advantage of its properties.
 
-Ok, but why should you bother with those fancy-pants functions?
+Ok, but why should you bother with these fancy-pants functions?
 
-In a glance: they are powerful, very expressive, easy to read, great to reuse, effective to maintain and will also tidy your code.
+In a glance: they are powerful, very expressive, easy to read, great to reuse, effective to maintain and will also tidy up your code.
 
 Just to name a few use cases:
 
 * You can abstract your work into small chunks (think work steps), and feed them to other functions.
-* You can decorate functions in order to augment their action.
+* You can decorate functions in order to augment their behaviour.
 * You can write functions that create other functions dynamically.
 * You can compose a serie of functions to generate other functions.
 
@@ -41,15 +41,15 @@ On the other hand, **Declarative programming**, found in programs written in lan
 - doesn't make changes to the data (immutable)
 - keeps the application state intact (stateless)
 
-Now, **Functional programming** is a powerful programming paradigm under Declarative programming, which stands on the shoulders of *higher-order functions*. It is based out of math, striving to describe computation as the evaluation of mathematical functions.
+Now, **Functional programming** is a powerful programming paradigm under Declarative programming, which stands on the shoulders of *higher-order functions*. It is based out on mathematical principles, striving to describe computation as the evaluation of mathematical functions.
 
 There are some basic principles that must always be followed:
 
 1. **Functions as a flow**: functions should be used to abstract operations, and your code should be described by a sequence of high-level functions instead of a sequence of low-level statements.
 1. **Data immutability**: data in functional programming should be immutable, which means any operation should be made over a new copy of the data, leaving  the original data untouched.
-1. **Function purity**: functions should be pure, which means they should be indefinetely repeatable (idempotent) and should not keep track of its past (stateless). This way, they should always return the same output for a particular input and won't generate any side-effect.
+1. **Function purity**: functions should be pure, which means they should be indefinitely repeatable (idempotent) and should not keep track of its past (stateless). This way, they should always return the same output for a particular input and won't generate any side-effect.
 
-Actually, Functional programming is way more than that! There are great concepts as currying, composing, functors, point-free, monads... Anyhow, this article is really about Higher-order functions, so we won't be going any deeper in Functional programming for now.
+Actually, Functional programming is way more than that! There are great concepts such as currying, composing, functors, point-free, monads... Anyhow, this article is really about Higher-order functions, so we won't be going any deeper in Functional programming for now.
 
 JavaScript is considered a hybrid language, so that it is possible to write code either following an Imperative or a Declarative/Functional approach.
 
@@ -130,7 +130,7 @@ var Number = function(number) {
 
 ```javascript
 // Calculate ( ( 270 / 3 / 2 / 3 ) * ( 270 / 3 / 3 / 3 ) ) / 2
-var n = new Number(270);
+var n = Number(270);
 var result = n.third().third().third()      // temp result = 15
     .multiplyBy(
         n.third().half().third()            // temp result = 10
