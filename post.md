@@ -131,9 +131,9 @@ var Number = function(number) {
 ```javascript
 // Calculate ( ( 270 / 3 / 2 / 3 ) * ( 270 / 3 / 3 / 3 ) ) / 2
 var n = Number(270);
-var result = n.third().third().third()      // temp result = 15
+var result = n.third().half().third()      // temp result = 15
     .multiplyBy(
-        n.third().half().third()            // temp result = 10
+        n.third().third().third()            // temp result = 10
     )                                       // temp result = 150
     .half();
 // result.number = 75, n.number = 270
