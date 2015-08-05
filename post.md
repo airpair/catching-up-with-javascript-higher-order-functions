@@ -17,7 +17,7 @@ In a glance: they are powerful, very expressive, easy to read, great to reuse, e
 Just to name a few use cases:
 
 * You can abstract your work into small chunks (think work steps), and feed them to other functions.
-* You can decorate functions in order to augment their behaviour.
+* You can decorate functions in order to augment their behavior.
 * You can write functions that create other functions dynamically.
 * You can compose a serie of functions to generate other functions.
 
