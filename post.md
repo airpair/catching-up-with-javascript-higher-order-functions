@@ -8,18 +8,18 @@ According to [Wikipedia](https://en.wikipedia.org/wiki/Higher-order_function), a
 
 All other functions are **first-order functions**.
 
-In JavaScript, functions are first-class citizens, which means they can go anywhere other data types would go (like integers, strings, arrays and objects). While this might not be big news for you (I bet you've written callbacks once or twice), it means that you can write optimized code for higher-order functions and take advantage of its properties.
+In JavaScript, functions are first-class citizens, meaning they can be assigned and passed around like other data types (eg. integers, strings, arrays and objects). While this might not be big news for you (I bet you've written callbacks once or twice), it means that you can write optimized code for higher-order functions and take advantage of its properties.
 
 Ok, but why should you bother with these fancy-pants functions?
 
 In a glance: they are powerful, very expressive, easy to read, great to reuse, effective to maintain and will also tidy up your code.
 
-Just to name a few use cases:
+Just to name a few use cases, you can:
 
-* You can abstract your work into small chunks (think work steps), and feed them to other functions.
-* You can decorate functions in order to augment their behavior.
-* You can write functions that create other functions dynamically.
-* You can compose a serie of functions to generate other functions.
+* Abstract your work into small chunks (think work steps), and feed them to other functions.
+* Decorate functions in order to augment their behavior.
+* Write functions that create other functions dynamically.
+* Compose a serie of functions to generate other functions.
 
 ## Programming paradigms
 
