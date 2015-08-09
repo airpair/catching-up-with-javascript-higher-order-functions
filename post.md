@@ -8,6 +8,8 @@ According to Wikipedia<sup>Higher-order funtion on [Wikipedia](https://en.wikipe
 
 All other functions are **first-order functions**.
 
+### Higher-order functions in JavaScript
+
 In JavaScript, functions are first-class citizens, meaning they can be assigned and passed around like other data types (eg. integers, strings, arrays and objects). While this might not be big news for you (I bet you've written callbacks once or twice), it means that you can write optimized code for higher-order functions and take advantage of its properties.
 
 Ok, but why should you bother with these fancy-pants functions?
@@ -25,6 +27,8 @@ Just to name a few use cases, you can:
 
 Before we proceed, let's take a quick dive into some fundamental programming paradigms:
 
+### Imperative programming
+
 **Imperative programming** is one of the most common programming paradigms around us, found in programs written in languages as C++, Python, Ruby, Java and C#. I would bet this paradigm was being used when you learned how to program.
  
 This is about *telling your computer HOW to do its work and figuring out the details yourself*, so that the code:
@@ -34,12 +38,16 @@ This is about *telling your computer HOW to do its work and figuring out the det
 - makes changes to the data (mutable)
 - manipulates the application state (stateful)
 
+### Declartive programming
+
 On the other hand, **Declarative programming**, found in programs written in languages as SQL, Haskell, Clojure and Scala, is about *telling your computer WHAT you want and letting him figure out the details*. This way, the code:
 
 - is based on a sequence of high-level/abstracted steps that might not require an order
 - relies on an engine, interpreter or API to fill in the minimal details of each operation
 - doesn't make changes to the data (immutable)
 - keeps the application state intact (stateless)
+
+### Fucntional prgogramming
 
 Now, **Functional programming** is a powerful programming paradigm under Declarative programming, which stands on the shoulders of *higher-order functions*. It is based out on mathematical principles, striving to describe computation as the evaluation of mathematical functions.
 
