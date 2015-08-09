@@ -2,9 +2,9 @@ They are all around you, your code, your company, your community, your framework
 
 ## Higher-order functions 101
 
-According to [Wikipedia](https://en.wikipedia.org/wiki/Higher-order_function), a **higher-order function** is a function that does at least one of the following:
-1. takes one or more functions as an input
-1. outputs a function
+According to Wikipedia<sup>Higher-order funtion on [Wikipedia](https://en.wikipedia.org/wiki/Higher-order_function)</sup>, a **higher-order function** is a function that does at least one of the following:
+1. Takes one or more functions as an input
+2. Outputs a function
 
 All other functions are **first-order functions**.
 
