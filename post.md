@@ -38,7 +38,7 @@ This is about *telling your computer HOW to do its work and figuring out the det
 - makes changes to the data (mutable)
 - manipulates the application state (stateful)
 
-### Declartive programming
+### Declarative programming
 
 On the other hand, **Declarative programming**, found in programs written in languages as SQL, Haskell, Clojure and Scala, is about *telling your computer WHAT you want and letting him figure out the details*. This way, the code:
 
@@ -47,7 +47,7 @@ On the other hand, **Declarative programming**, found in programs written in lan
 - doesn't make changes to the data (immutable)
 - keeps the application state intact (stateless)
 
-### Fucntional prgogramming
+### Functional prgogramming
 
 Now, **Functional programming** is a powerful programming paradigm under Declarative programming, which stands on the shoulders of *higher-order functions*. It is based out on mathematical principles, striving to describe computation as the evaluation of mathematical functions.
 
